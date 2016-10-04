@@ -1,0 +1,142 @@
+27-Sep-2016 11:05:38.565 INFO [http-apr-8090-exec-159] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 11:05:38.659 INFO [http-apr-8090-exec-163] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/PrograInter'
+27-Sep-2016 11:07:54.244 INFO [http-apr-8090-exec-159] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 11:07:54.244 INFO [http-apr-8090-exec-166] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/PrograInter'
+27-Sep-2016 11:08:32.591 INFO [http-apr-8090-exec-169] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 11:09:21.970 INFO [http-apr-8090-exec-180] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 11:09:21.970 INFO [http-apr-8090-exec-178] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/PrograInter'
+27-Sep-2016 11:09:40.508 INFO [http-apr-8090-exec-178] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 11:09:40.508 INFO [http-apr-8090-exec-174] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/PrograInter'
+27-Sep-2016 11:09:58.495 INFO [http-apr-8090-exec-174] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 11:09:58.495 INFO [http-apr-8090-exec-177] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/PrograInter'
+27-Sep-2016 11:32:02.304 INFO [http-apr-8090-exec-186] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 11:32:02.304 INFO [http-apr-8090-exec-185] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/PrograInter'
+27-Sep-2016 11:32:02.304 SEVERE [http-apr-8090-exec-185] org.apache.catalina.core.ApplicationContext.log Manager: ManagerServlet.reload[/PrograInter]
+ java.lang.IllegalStateException: Aún no se ha arrancado el Contexto [/PrograInter]
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3851)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:997)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:345)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:528)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1100)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:687)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2508)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2497)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+27-Sep-2016 12:59:53.252 INFO [http-apr-8090-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+27-Sep-2016 12:59:53.252 INFO [http-apr-8090-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+27-Sep-2016 12:59:53.252 INFO [http-apr-8090-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 12:59:53.268 INFO [http-apr-8090-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 12:59:53.284 INFO [http-apr-8090-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/MBERNE~1.REM/AppData/Local/Temp/context4261905539227575208.xml'
+27-Sep-2016 12:59:53.455 INFO [http-apr-8090-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/EjemploCrud'
+27-Sep-2016 13:26:17.267 INFO [http-apr-8090-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 13:26:17.348 INFO [http-apr-8090-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/EjemploCrud'
+27-Sep-2016 13:26:17.600 INFO [http-apr-8090-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 13:26:17.604 INFO [http-apr-8090-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/EjemploCrud'
+27-Sep-2016 13:26:40.912 INFO [http-apr-8090-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 13:26:40.918 INFO [http-apr-8090-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/EjemploCrud'
+27-Sep-2016 13:26:41.095 INFO [http-apr-8090-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 13:26:41.099 INFO [http-apr-8090-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/EjemploCrud'
+27-Sep-2016 13:30:19.656 INFO [http-apr-8090-exec-18] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 13:30:19.666 INFO [http-apr-8090-exec-19] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 13:30:19.676 INFO [http-apr-8090-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/EjemploCrud'
+27-Sep-2016 13:31:35.498 INFO [http-apr-8090-exec-28] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 13:31:35.508 INFO [http-apr-8090-exec-29] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 13:31:46.458 INFO [http-apr-8090-exec-22] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 13:31:46.468 INFO [http-apr-8090-exec-23] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 13:37:30.438 INFO [http-apr-8090-exec-24] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 13:37:30.438 INFO [http-apr-8090-exec-25] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/EjemploCrud'
+27-Sep-2016 13:37:30.932 INFO [http-apr-8090-exec-24] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 13:37:30.932 INFO [http-apr-8090-exec-26] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 13:37:30.962 INFO [http-apr-8090-exec-23] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/PrograInter'
+27-Sep-2016 13:37:31.472 INFO [http-apr-8090-exec-22] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/MBERNE~1.REM/AppData/Local/Temp/context5025585450552262527.xml'
+27-Sep-2016 13:40:00.181 INFO [http-apr-8090-exec-37] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 13:40:00.181 INFO [http-apr-8090-exec-28] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/PrograInter'
+27-Sep-2016 13:40:00.191 INFO [http-apr-8090-exec-34] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/PrograInter'
+27-Sep-2016 13:40:00.770 INFO [http-apr-8090-exec-37] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 13:40:00.770 INFO [http-apr-8090-exec-35] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/PrograInter'
+27-Sep-2016 13:40:13.570 INFO [http-apr-8090-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 13:40:13.580 INFO [http-apr-8090-exec-38] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/PrograInter'
+27-Sep-2016 13:42:09.552 INFO [http-apr-8090-exec-38] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 13:42:09.562 INFO [http-apr-8090-exec-41] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/PrograInter'
+27-Sep-2016 13:43:27.542 INFO [http-apr-8090-exec-41] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 13:43:27.542 INFO [http-apr-8090-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/PrograInter'
+27-Sep-2016 13:44:57.020 INFO [http-apr-8090-exec-45] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 13:44:57.020 INFO [http-apr-8090-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/PrograInter'
+27-Sep-2016 13:45:06.112 INFO [http-apr-8090-exec-41] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 13:45:06.122 INFO [http-apr-8090-exec-48] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 13:45:06.132 INFO [http-apr-8090-exec-44] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/PrograInter'
+27-Sep-2016 13:45:06.132 INFO [http-apr-8090-exec-38] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/PrograInter'
+27-Sep-2016 13:45:32.459 INFO [http-apr-8090-exec-49] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 13:45:32.481 INFO [http-apr-8090-exec-35] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/PrograInter'
+27-Sep-2016 13:45:57.333 INFO [http-apr-8090-exec-38] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 13:45:57.333 INFO [http-apr-8090-exec-52] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 13:45:57.343 INFO [http-apr-8090-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/PrograInter'
+27-Sep-2016 13:48:00.575 INFO [http-apr-8090-exec-50] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 13:48:00.585 INFO [http-apr-8090-exec-53] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 13:49:04.919 INFO [http-apr-8090-exec-35] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 13:49:31.396 INFO [http-apr-8090-exec-53] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 13:50:03.352 INFO [http-apr-8090-exec-53] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 13:50:48.449 INFO [http-apr-8090-exec-56] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 13:50:48.449 INFO [http-apr-8090-exec-57] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/PrograInter'
+27-Sep-2016 13:50:48.459 INFO [http-apr-8090-exec-62] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/PrograInter'
+27-Sep-2016 13:50:56.447 INFO [http-apr-8090-exec-60] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 13:57:50.261 INFO [http-apr-8090-exec-70] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 13:59:03.279 INFO [http-apr-8090-exec-70] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 13:59:03.279 INFO [http-apr-8090-exec-71] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/PrograInter'
+27-Sep-2016 13:59:24.233 INFO [http-apr-8090-exec-73] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 13:59:24.233 INFO [http-apr-8090-exec-68] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/PrograInter'
+27-Sep-2016 14:00:39.148 INFO [http-apr-8090-exec-73] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 14:00:39.148 INFO [http-apr-8090-exec-68] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/PrograInter'
+27-Sep-2016 14:02:04.898 INFO [http-apr-8090-exec-68] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 14:02:09.457 INFO [http-apr-8090-exec-78] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 14:02:44.779 INFO [http-apr-8090-exec-78] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 14:02:58.131 INFO [http-apr-8090-exec-78] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 14:04:36.304 INFO [http-apr-8090-exec-76] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 14:04:36.304 INFO [http-apr-8090-exec-68] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/PrograInter'
+27-Sep-2016 14:04:55.578 INFO [http-apr-8090-exec-68] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 14:04:55.578 INFO [http-apr-8090-exec-81] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/PrograInter'
+27-Sep-2016 14:05:01.740 INFO [http-apr-8090-exec-81] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 14:05:01.750 INFO [http-apr-8090-exec-68] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/PrograInter'
+27-Sep-2016 14:08:17.187 INFO [http-apr-8090-exec-68] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 14:09:47.028 INFO [http-apr-8090-exec-89] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 14:09:47.028 INFO [http-apr-8090-exec-87] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/PrograInter'
+27-Sep-2016 14:10:23.151 INFO [http-apr-8090-exec-97] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 14:12:10.688 INFO [http-apr-8090-exec-100] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 14:12:28.762 INFO [http-apr-8090-exec-100] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 14:13:57.176 INFO [http-apr-8090-exec-94] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 14:14:11.725 INFO [http-apr-8090-exec-104] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 14:16:43.634 INFO [http-apr-8090-exec-97] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 14:17:26.987 INFO [http-apr-8090-exec-97] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 14:17:44.555 INFO [http-apr-8090-exec-97] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 14:18:36.009 INFO [http-apr-8090-exec-98] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 14:19:43.915 INFO [http-apr-8090-exec-98] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 14:21:50.139 INFO [http-apr-8090-exec-98] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 14:21:50.139 INFO [http-apr-8090-exec-99] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/PrograInter'
+27-Sep-2016 14:22:19.158 INFO [http-apr-8090-exec-107] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 14:22:59.762 INFO [http-apr-8090-exec-107] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 14:22:59.762 INFO [http-apr-8090-exec-97] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/PrograInter'
+27-Sep-2016 14:25:02.302 INFO [http-apr-8090-exec-101] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 14:27:30.884 INFO [http-apr-8090-exec-101] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+27-Sep-2016 14:27:30.884 INFO [http-apr-8090-exec-106] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/PrograInter'
+27-Sep-2016 14:30:51.849 INFO [http-apr-8090-exec-129] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
